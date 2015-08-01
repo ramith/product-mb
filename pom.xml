@@ -326,7 +326,11 @@
                 <artifactId>org.wso2.carbon.metrics.impl</artifactId>
                 <version>${carbon.metrics.version}</version>
             </dependency>
-
+   				  <dependency>
+        			<groupId>com.zaxxer</groupId>
+        			<artifactId>HikariCP-java6</artifactId>
+        			<version>2.3.9</version>
+    				</dependency>
         </dependencies>
     </dependencyManagement>
 
